@@ -5,10 +5,6 @@
 
 # Face-meltingly fast, thread-safe, marshalable, unionable, probability- and optimal-size-calculating Bloom filter in go
 
-Copyright © 2014-2016,2018 Barry Allard
-
-[MIT license](MIT-LICENSE.txt)
-
 ## What is a bloom filter
 
 **TL;DR: **Probabilistic, extra lookup table to track a set of elements kept elsewhere to reduce expensive, unnecessary set element retrieval and/or iterator operations **when an element is not present in the set.** It's a classic time-storage tradeoff algoritm.
@@ -99,19 +95,13 @@ Where possible, branch-free operations are used to avoid deep pipeline / executi
 
 ## Get
 
-    go get -u github.com/steakknife/bloomfilter  # master is always stable
+    go get -u github.com/NexWeb/bloomfilter  # master is always stable
 
 ## Source
 
-- On the web: [https://github.com/steakknife/bloomfilter](https://github.com/steakknife/bloomfilter)
+- On the web: [https://github.com/NexWeb/bloomfilter](https://github.com/NexWeb/bloomfilter)
 
-- Git: `git clone https://github.com/steakknife/bloomfilter`
-
-## Contact
-
-- [Feedback](mailto:barry.allard@gmail.com)
-
-- [Issues](https://github.com/steakknife/bloomfilter/issues)
+- Git: `git clone https://github.com/NexWeb/bloomfilter`
 
 ## License
 
