@@ -9,7 +9,7 @@ Copyright © 2014-2016,2018 Barry Allard
 
 [MIT license](MIT-LICENSE.txt)
 
-## WTF is a bloom filter
+## What is a bloom filter
 
 **TL;DR: **Probabilistic, extra lookup table to track a set of elements kept elsewhere to reduce expensive, unnecessary set element retrieval and/or iterator operations **when an element is not present in the set.** It's a classic time-storage tradeoff algoritm.
 
