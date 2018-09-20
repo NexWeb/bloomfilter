@@ -55,7 +55,7 @@ All values in Little-endian format
 
 ```go
 
-import "github.com/steakknife/bloomfilter"
+import "github.com/NexWeb/bloomfilter"
 
 const (
   maxElements = 100000
